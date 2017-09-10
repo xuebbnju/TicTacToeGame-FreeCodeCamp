@@ -1,0 +1,141 @@
+*, p{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+   background: #ccc;
+    color: #fff;  
+    width: 100%;
+    height: 100%;  
+     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:20px;
+}
+.wrapper{
+    position: relative;
+   
+   width:462px;
+    margin: 3% auto;
+
+}
+.wrapper header  {
+     background: #fff;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+      border-radius: 5px 5px 0 0;
+
+
+}
+.wrapper header button{
+   background: transparent;
+   border:1px solid #ccc;
+   border-radius: 3px;
+   color:#000;
+   padding: 5px 5px;
+    box-shadow: 1px 1px 1px #888888;
+
+}
+.wrapper main canvas{
+    
+    
+    
+     background: #000;
+}
+#selector{
+    position: absolute;
+    opacity: 0;
+    top:-320px;
+    left: -5%;
+    right: -5%;
+    height: 320px;
+    background: #fff;
+    border-radius:15px;
+    box-shadow: 3px 3px 1px #888888;
+    transition: all 0.5s ease-in-out ;
+    -webkit-transition: all 0.5s ease-in-out ;
+}
+
+.text{
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    background: #000;
+    height: 200px;
+    padding: 20px 0;
+}
+#selector .text .question-text {
+   border-bottom: 1px solid white;
+   height: 80px;
+   font-size: 30px;
+   line-height: 80px;
+}
+#selector .text .question-selector, #result-text{
+height: 80px;
+line-height: 80px;
+}
+.buttons{
+    padding:0 80px;
+    text-align: right;
+}
+.buttons button{
+    border:1px solid #ccc;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    color:#000;
+    margin-left: 20px;
+}
+.show#selector,.show#result{
+    top:15%;
+    opacity: 1;
+}
+#result{
+   position: absolute;
+    opacity: 0;
+    top:-320px;
+    
+    left: -5%;
+    right: -5%;
+    height: 240px;
+    background: #fff;
+    border-radius:15px;
+    box-shadow: 3px 3px 1px #888888;
+    transition: all 0.5s ease-in-out ;
+    -webkit-transition: all 0.5s ease-in-out ;
+
+}
+#result .text{
+  margin-top: 30px;
+  height:120px;
+}
+
+/*@-webkit-@keyframes moveIn{
+  0%{opacity: 0; top:-320px;}
+  50%{opacity: 1;}
+  100%{top:10%;opacity: 1;}
+
+}
+@keyframes moveIn{
+  0%{opacity: 0; top:-320px;}
+  50%{opacity: 1;}
+  100%{top:10%;opacity: 1;}
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
